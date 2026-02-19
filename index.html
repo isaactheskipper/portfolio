@@ -80,7 +80,7 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/Hassan-PhotoRoom.jpeg" class="img-fluid" alt="">
+            <img src="assets/img/isaac-portfolio.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Web Developer | Editor</h3>
@@ -112,7 +112,7 @@
               innovation and a proven ability to adapt and thrive in fast-paced environments, I'm ready to
               elevate your projects to the next level!
             </p>
-            <a href="https://ikt.pages.dev/assets/Isaac_Too_-_IT_Internship.pdf" target="_blank">My Resume</a>
+            <a href="assets/img/IT EXPERT |EDITOR.pdf" target="_blank">My Resume</a>
           </div>
         </div>
 
@@ -682,27 +682,35 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0" style="background-color: #000;">
+            <form action="https://api.web3forms.com/submit" method="POST" class="php-email-form">
+            <input type="hidden" name="access_key" value="982c46cc-2ca3-474b-b2c8-1e1d31e2b71c">  <!-- ← Put your key here -->
 
-            <form action="https://ikt.pages.dev/forms/contact.php" method="post" role="form" class="php-email-form" style="background-color: #000;">
-              <div class="row" style="background-color: #000;">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
               </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
               </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
+            </div>
+
+            <div class="form-group mt-3">
+              <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+            </div>
+
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+
+              <!-- Optional: Customize email subject / from name -->
+              <input type="hidden" name="from_name" value="Portfolio Visitor">
+              <input type="hidden" name="subject" value="New message from your portfolio!">
+
               <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
+                <div class="loading">Loading...</div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
+
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
 
